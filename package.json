@@ -1,0 +1,32 @@
+{
+    "name": "squalor",
+    "homepage": "https://github.com/khrome/squalor",
+    "version": "0.0.1",
+    "main": "squalor.js",
+    "description": "SQL Mapper abstraction",
+    "keywords": [
+        "SQL"
+    ],
+    "author": "Abbey Hawk Sparrow <@khrome> (http://patternweaver.com)",
+    "contributors": [],
+    "bugs": {
+        "url": "https://github.com/khrome/squalor/issues"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/khrome/squalor.git"
+    },
+    "dependencies": {
+        "extended-emitter": "*",
+        "async-arrays": "*"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    },
+    "optionalDependencies": {},
+    "engines": {
+        "node": "*"
+    }
+}
