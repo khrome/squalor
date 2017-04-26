@@ -10,11 +10,15 @@
 
     var types = {};
 
-    function SQL(type){
-
+    function SQL(type, data){
+        this.data = data || {};
     }
 
     function typedValue(value){
+        if(typeof value === 'object' && value instanceof Date){
+            //todo: support moment + timezone if available
+            return '"'+value.toISOString().slice(0, 19).replace('T', ' ')+'"';
+        }
         return typeof value == 'Number'?value.toString():'"'+value+'"';
     }
 

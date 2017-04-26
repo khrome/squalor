@@ -1,7 +1,7 @@
 {
     "name": "squalor",
     "homepage": "https://github.com/khrome/squalor",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "squalor.js",
     "description": "SQL Mapper abstraction",
     "keywords": [
