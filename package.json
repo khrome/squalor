@@ -1,32 +1,33 @@
 {
-    "name": "squalor",
-    "homepage": "https://github.com/khrome/squalor",
-    "version": "0.0.2",
-    "main": "squalor.js",
-    "description": "SQL Mapper abstraction",
-    "keywords": [
-        "SQL"
-    ],
-    "author": "Abbey Hawk Sparrow <@khrome> (http://patternweaver.com)",
-    "contributors": [],
-    "bugs": {
-        "url": "https://github.com/khrome/squalor/issues"
-    },
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/khrome/squalor.git"
-    },
-    "dependencies": {
-        "extended-emitter": "*",
-        "async-arrays": "*"
-    },
-    "devDependencies": {
-        "mocha": "*",
-        "should": "*"
-    },
-    "optionalDependencies": {},
-    "engines": {
-        "node": "*"
-    }
+  "name": "squalor",
+  "homepage": "https://github.com/khrome/squalor",
+  "version": "0.1.0",
+  "main": "squalor.js",
+  "description": "SQL Mapper abstraction",
+  "keywords": [
+    "SQL"
+  ],
+  "author": "Abbey Hawk Sparrow <@khrome> (http://patternweaver.com)",
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/khrome/squalor/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/khrome/squalor.git"
+  },
+  "dependencies": {
+    "async-arrays": "*",
+    "extended-emitter": "*",
+    "sqlstring": "^2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
 }
